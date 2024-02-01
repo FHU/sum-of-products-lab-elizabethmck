@@ -8,15 +8,14 @@ list2 = int(input())
     # this function should do the math
     
 
-# if __name__ == '__main__':
-   #REMOVE PASS AND YOUR CODE GOES HERE
+if len(list1) == len(list2):
     # read in the integers
     num1 = list1[0] * list2[0]
     num2 = list1[1] * list2[1]
     num3 = list1[2] * list2[2]
 
-    sum = num1 + num2 + num3
+sum = num1 + num2 + num3
 
-    # call sum of produccts (return a value)
-    # print the result
-    print(sum)
+# call sum of produccts (return a value)
+# print the result
+print(sum)
