@@ -5,16 +5,8 @@ def sum_of_products(list1, list2):
     split1 = []
     split2 = []
     
-    for i in list1:
-        if i.isspace():
-            continue
-        else:
-            split1.append(int(i))
-    for i in list2:
-        if i.isspace():
-            continue
-        else:
-            split2.append(int(i))
+    list1 = list1.split()
+    list2 = list2.split()
 
     x = 0
     for y in range(len(split1)):
