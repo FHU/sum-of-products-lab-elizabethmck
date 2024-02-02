@@ -34,3 +34,5 @@ if __name__ == '__main__':
     total = sum_of_products(a,b)
     #test
     print(total)
+
+# Test
