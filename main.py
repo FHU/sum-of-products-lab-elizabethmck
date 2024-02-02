@@ -2,15 +2,12 @@
 #change to test push and forks
 
 def sum_of_products(list1, list2):
-    split1 = []
-    split2 = []
-    
     list1 = list1.split()
     list2 = list2.split()
 
     x = 0
-    for y in range(len(split1)):
-        x = x + int(split1[y]) * int(split2[y])
+    for y in range(len(list1)):
+        x = x + int(list1[y]) * int(list2[y])
     return x
     
    # else:
