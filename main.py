@@ -16,22 +16,19 @@ def sum_of_products(list1, list2):
         else:
             split2.append(int(i))
 
-    if len(list1) == len(list2):
-        num1 = split1[0] * split2[0]
-        num2 = split1[1] * split2[1]
-        num3 = split1[2] * split2[2]
-
-        sum = num1+num2+num3
-        return sum
+    x = 0
+    for y in range(len(split1)):
+        x = x + int(split1[y]) * int(split2[y])
+    return x
     
-    else:
-        print("error")
+   # else:
+        #print("error")
 
 if __name__ == '__main__':
-    a = input()
-    b = input()
+    list1 = input()
+    list2 = input()
 
-    total = sum_of_products(a,b)
+    total = sum_of_products(list1,list2)
     #test
     print(total)
 
